@@ -1,0 +1,23 @@
+{"Playlists" : [
+  {
+    "id": "1",
+    "titreplay": "Soirée 1"
+  },
+  {
+    "id": "2",
+    "titreplay": "Soirée 2"
+  },
+  {
+    "id": "3",
+    "titreplay": "Soirée 3"
+  },
+  {
+    "id": "4",
+    "titreplay": "Soirée 4"
+  },
+  {
+    "id": "5",
+    "titreplay": "Soirée 5"
+  }
+]
+}
