@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Projet Vegas Musique</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="textidentifiant">TextIdentifiant</string>
+    <string name="titre_de_la_playlist">Titre de la playlist</string>
+    <string name="texttitreplaylist">TextTitrePlaylist</string>
 </resources>
