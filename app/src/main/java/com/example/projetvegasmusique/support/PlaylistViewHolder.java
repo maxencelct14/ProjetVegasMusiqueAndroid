@@ -32,13 +32,13 @@ public class PlaylistViewHolder extends RecyclerView.ViewHolder {
 
     public void remplirViewHolder(String laPlaylist) {
         String lesInfos[] = laPlaylist.split("-");
-        String lId = lesInfos[1];
-        tvPlaylist.setText(lId);
+        String leTitrePlaylist = lesInfos[1];
+        tvPlaylist.setText(leTitrePlaylist);
     }
 
     public void remplirViewHolder(Playlist laPlaylist, int position) {
-        String lId = laPlaylist.getId()+" "+laPlaylist.getTitreplay();
+        String leTitrePlaylist = laPlaylist.getId()+" "+laPlaylist.getTitreplay();
         Log.i("viewHolder","remplir (pos) : "+position);
-        tvPlaylist.setText(position+" - "+lId);
+        tvPlaylist.setText(position+" - "+leTitrePlaylist);
     }
 }

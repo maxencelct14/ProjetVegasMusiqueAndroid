@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCreerPlaylist"
+        android:layout_width="110dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="658dp"
+        android:text="Créer une playlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIdentifiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Identifiant"
+        app:layout_constraintBottom_toTopOf="@+id/tvTitrePlaylist"
+        app:layout_constraintEnd_toStartOf="@+id/etIdentifiant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitrePlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="500dp"
+        android:text="Titre de la playlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/etTitrePlaylist"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIdentifiant" />
+
+    <EditText
+        android:id="@+id/etIdentifiant"
+        android:layout_width="165dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etTitrePlaylist"
+        app:layout_constraintStart_toEndOf="@+id/tvIdentifiant"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etTitrePlaylist"
+        android:layout_width="161dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="450dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvTitrePlaylist"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnCreerPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="125dp"
+        android:text="Créer une playlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTitrePlaylist" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
