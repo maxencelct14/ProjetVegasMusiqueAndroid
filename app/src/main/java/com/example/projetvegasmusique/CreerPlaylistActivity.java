@@ -28,7 +28,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class CreerPlaylistActivity extends AppCompatActivity {
 
     List<Playlist> lesPlaylists = new ArrayList<Playlist>();
     GestionBDD sgbd = new GestionBDD(this);
