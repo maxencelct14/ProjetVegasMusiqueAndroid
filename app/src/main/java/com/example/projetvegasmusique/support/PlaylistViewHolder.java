@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.projetvegasmusique.R;
-import com.example.projetvegasmusique.VoirPlaylistActivity;
+import com.example.projetvegasmusique.VoirPlaylistsActivity;
 import com.example.projetvegasmusique.metier.Playlist;
 
 public class PlaylistViewHolder extends RecyclerView.ViewHolder {
@@ -19,7 +19,7 @@ public class PlaylistViewHolder extends RecyclerView.ViewHolder {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent laSuite = new Intent(view.getContext(), VoirPlaylistActivity.class);
+                Intent laSuite = new Intent(view.getContext(), VoirPlaylistsActivity.class);
                 String lesInfos[]= tvPlaylist.getText().toString().split("-");
                 int laPosition =  Integer.parseInt(lesInfos[0]);
                 String laPlaylist = lesInfos[1];

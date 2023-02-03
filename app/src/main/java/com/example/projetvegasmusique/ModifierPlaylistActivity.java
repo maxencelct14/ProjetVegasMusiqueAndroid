@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.projetvegasmusique.DAO.GestionBDD;
 
-public class ModifierPlaylist extends AppCompatActivity {
+public class ModifierPlaylistActivity extends AppCompatActivity {
 
     GestionBDD sgbd;
 

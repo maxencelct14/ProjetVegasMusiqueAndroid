@@ -16,7 +16,7 @@ import java.util.List;
 
 public class PlaylistAdapter extends RecyclerView.Adapter {
 
-    List<Playlist> lesPlaylists = new ArrayList<>();
+    List<Playlist> lesPlaylists = new ArrayList<Playlist>();
 
     public PlaylistAdapter(List<Playlist> lesPlaylists) {
         this.lesPlaylists = lesPlaylists;
