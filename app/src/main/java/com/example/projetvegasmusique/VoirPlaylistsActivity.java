@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.projetvegasmusique.DAO.GestionBDD;
+
 public class VoirPlaylistsActivity extends AppCompatActivity {
 
     @Override
@@ -14,5 +16,7 @@ public class VoirPlaylistsActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         String laPlaylist = extras.getString("laPlaylist");
         int laPosition = extras.getInt("laPosition");
+
     }
+
 }
