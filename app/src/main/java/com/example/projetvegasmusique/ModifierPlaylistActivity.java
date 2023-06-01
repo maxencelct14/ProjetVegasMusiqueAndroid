@@ -6,7 +6,6 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.projetvegasmusique.DAO.GestionBDD;
 
 public class ModifierPlaylistActivity extends AppCompatActivity {

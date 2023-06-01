@@ -3,6 +3,7 @@ package com.example.projetvegasmusique;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.projetvegasmusique.DAO.GestionBDD;
 
 public class VoirPlaylistActivity extends AppCompatActivity {
 
