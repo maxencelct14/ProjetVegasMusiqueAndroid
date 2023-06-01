@@ -53,7 +53,7 @@ public class CreerPlaylistActivity extends AppCompatActivity {
 
         EditText etIdentifiant = findViewById(R.id.etIdentifiant);
         EditText etTitrePlaylist = findViewById(R.id.etTitrePlaylist);
-        Button btnCreerPlaylist = findViewById(R.id.btnCreerPlaylist);
+        Button btnCreerPlaylist = findViewById(R.id.buttoncreerplaylist);
         btnCreerPlaylist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

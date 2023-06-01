@@ -21,7 +21,7 @@ public class ModifierPlaylistActivity extends AppCompatActivity {
         String lId = extras.getString("lId");
         String leTitrePlaylist = extras.getString("leTitrePlaylist");
 
-        Button btnModifierPlaylist= this.findViewById(R.id.btnModifierPlaylist) ;
+        Button btnModifierPlaylist= this.findViewById(R.id.buttonmodifierplaylist) ;
         btnModifierPlaylist.setOnClickListener((View.OnClickListener) this);
 
         EditText txtId = this.findViewById(R.id.etIdentifiant);
